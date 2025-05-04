@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fffefc;
+    min-height: 100vh;
+}
+header {
+    position: sticky;
+    top: 0;
+    background-color: #caded9;
+    padding: 15px 0;
+    text-align: center;
+}
+header h1{
+    font-size: 30px;
+}
+header img {
+    display: block;
+    block-size: 75px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 5px;
+    gap: 20px;
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
+.menu a:hover {
+    font-weight: bold;
+}
+.suite h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.suite p{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.img{
+    text-align: center;
+}
+.img img{
+    width: 30%;
+}
+.reservar h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.reservar p {
+    text-align: center;
+}
+.botao {
+    text-align: center;
+    margin-top: 20px;
+}
+.reservar a {
+    color: black;
+    background-color: #cde9d0;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.reservar a:hover {
+    background-color: #aed3b1;
+}
+.voltar {
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.voltar a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.voltar a:hover {
+   color: #aed3b1;
+   font-weight: bold;
+}
+main {
+    flex: 1;
+}
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #caded9;
+}

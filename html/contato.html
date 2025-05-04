@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/contato.css">
     <title>Estância Torre de Pedra</title>
 </head>
 
@@ -14,37 +14,49 @@
         <h1>Estância Torre de Pedra</h1>
         <nav>
             <ul class="menu">
-                <li><a href="index.html">Início</a></li>
+                <li><a href="/index.html">Início</a></li>
                 <li><a href="/html/acomodacoes.html">Acomodações</a></li>
                 <li><a href="/html/servicos.html">Serviços</a></sli>
                 <li><a href="/html/galeria.html">Galeria</a></li>
-                <li><a href="/html/contato.html">Contato</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Galeria</h1>
-        <p>Algumas fotos de nosso Hotel!</p>
-        <div class="img">
-            <img src="/img/volei.avif" alt="#">
-            <img src="/img/fazenda.jpg" alt="#">
-            <img src="/img/flor.jpg" alt="#">
-            <img src="/img/fuca.jpg" alt="#">
-            <img src="/img/gansao.jpg" alt="#">
-            <img src="/img/ganso.jpg" alt="#">
-            <img src="/img/jogos.jpg" alt="#">
-            <img src="/img/lago.jpg" alt="#">
-            <img src="/img/pato.jpg" alt="#">
-            <img src="/img/pedra.jpg" alt="#">
-            <img src="/img/piscina.avif" alt="#">
-            <img src="/img/rede.jpg" alt="#">
-            <img src="/img/redebanco.jpg" alt="#">
-            <img src="/img/rio.jpg" alt="#">
+        <div class="contato">
+            <h2>Contatos</h2>
+            <p>Telefone: (15) 3500-8476 | Recepção do hotel.</p>
+            <p>E-mail: sac@estanciatorredepedra.com.br</p>
+            <h2>Representantes comerciais</h2>
+            <p>Enzo - Larissa - Lennon - Rafael</p>
         </div>
+        <h2>Faça agora mesmo sua reserva!</h2>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div class="campo">
+                <label for="cnome">Nome:</label>
+                <input type="text" id="cnome" name="nome">
+            </div>
+            <div class="campo">
+                <label for="cemail">E-mail:</label>
+                <input type="email" id="cemail" name="email">
+            </div>
+            <div class="campo">
+                <label for="cdata">Data hospedagem:</label>
+                <input type="date" name="data" id="cdata">
+            </div>
+            <div class="campo">
+                <label for="qtdpessoas">Quantidade de pessoas</label>
+                <input type="number" name="qtdpessoas" id="qtdpessoas" min="1" max="5" step="1">
+            </div>
+        </fieldset>
+        <input type="submit" value="Enviar">
+        </form>
     </main>
 
     <footer>
-        <p>Email: sac@estanciatorredepedra.com.br<br>©2024 Hotel Fazenda Estância Torre de Pedra.</p>
+        <p>Contato: (15) 3500-8476<br>E-mail: sac@estanciatorredepedra.com.br<br>Rodovia Pres. Castello Branco, km 167,
+            Bairro dos Cariocas, Porangaba-SP, 18260-000<br>©2024 Hotel Fazenda Estância Torre de Pedra.</p>
     </footer>
 </body>
 

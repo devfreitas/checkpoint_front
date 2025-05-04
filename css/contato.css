@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fffefc;
+    min-height: 100vh;
+}
+header {
+    position: sticky;
+    top: 0;
+    background-color: #caded9;
+    padding: 15px 0;
+    text-align: center;
+}
+header h1{
+    font-size: 30px;
+}
+header img {
+    display: block;
+    block-size: 75px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 5px;
+    gap: 20px;
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
+.menu a:hover {
+    font-weight: bold;
+}
+.contato p {
+    text-align: center;
+}
+form{
+    width: 50%;
+    margin: auto;
+}
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.campo{
+    display: flex;
+}
+
+.campo label{
+    display: inline-block;
+    width: 110px;
+    margin-left: 5px;
+}
+input {
+    display: block;
+    margin: 20px auto;
+    width: 100px; 
+}
+.campo input{
+    flex-grow: 1;
+    padding: 2px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+fieldset {
+    width: 600px;
+    margin: 0 auto;
+}
+main {
+    flex: 1;
+}
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #caded9;
+}
