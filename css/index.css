@@ -99,6 +99,7 @@ header img {
 .local iframe {
     width: 500px;
     height: 300px;
+    border-radius: 8px;
     margin-bottom: 10px;
 }
 main {
